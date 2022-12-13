@@ -1,0 +1,10 @@
+.blurredElement {
+    /* Any browser which supports CSS3 */
+    filter: blur(5px);
+
+    /* Firefox version 34 and earlier */
+    /* filter: url("blur.svg#gaussian_blur"); */
+
+    /* Webkit in Chrome 52, Safari 9, Opera 39, and earlier */
+    -webkit-filter: blur(5px);
+}
